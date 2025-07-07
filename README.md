@@ -9,4 +9,4 @@
 ## 🔧 Установка
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/degeneraptor/yoba/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/neurogeneraptor/yoba/main/install.sh | bash
