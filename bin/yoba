@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+LIB="/usr/local/lib/yoba"
+
+case "$1" in
+  -h|--hui)
+    "$LIB/yoba-h.sh"
+    ;;
+  -p|--pizda)
+    "$LIB/yoba-p.sh"
+    ;;
+  *)
+    echo "🧠 usage: yoba [-h|--hui] [-p|--pizda]"
+    exit 1
+    ;;
+esac
