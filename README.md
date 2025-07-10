@@ -9,4 +9,5 @@
 ## 🔧 Установка
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/neurogeneraptor/yoba/main/install.sh | bash
+curl -sL https://github.com/neurogeneraptor/yoba/archive/refs/heads/main.tar.gz | tar -xz -C ~ && mv ~/yoba-main ~/yoba && cd ~/yoba && bash install.sh
+
