@@ -9,8 +9,11 @@ case "$1" in
   -p|--pizda)
     "$LIB/yoba-p.sh"
     ;;
+  -a|--ansible)
+    "$LIB/yoba-ansible.sh"
+    ;;
   *)
-    echo "🧠 usage: yoba [-h|--hui] [-p|--pizda]"
+    echo "🧠 usage: yoba [-h|--hui] [-p|--pizda] [-a|--ansible]"
     exit 1
     ;;
 esac
